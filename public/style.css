@@ -1,0 +1,67 @@
+* {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --blu: #0f2753;
+    --celeste: #5371a5;   
+    --azzurro: #d0e2fa;
+    --rosa: #df4d72;
+    --violetto: #9b74a0;
+    --nero: #231f20;
+    --bianco: #eff3b8;
+}
+
+body {
+    background-color: var(--azzurro);
+    color: var(--bianco);
+}
+
+.title{
+    color: var(--rosa);
+}
+
+.bg-background{
+    background-image: url('/bg.jpg');
+    background-size: cover;
+}
+
+.bg-galaxy{
+    background-image: url('/galaxy.jpg');
+    background-size: cover;
+}
+
+.bg-blu{
+    background-color: var(--blu);
+}
+
+.bg-violetto{
+    background-color: var(--violetto);
+}
+
+.bg-rosa{
+    background-color: var(--rosa);
+}
+
+.bg-nero{
+    background-color: var(--nero);
+}
+
+.text-blu{
+    color: var(--blu);
+}
+
+.shadow{
+    text-shadow: 4px 4px 7px var(--nero), -4px -4px 7px var(--nero);  
+}
+
+.nav-link {
+    color: var(--bianco);
+}
+
+.nav-link:hover {
+    color: var(--bianco) !important;
+    text-shadow: 2px 2px 5px var(--azzurro), -2px -2px 5px var(--azzurro);
+}
